@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    h2 {
+        @apply text-xl md:text-3xl lg:text-4xl font-semibold text-color-800
+    }
+    h3 {
+        @apply text-lg font-semibold text-color-700
+    }
+}
+
+@layer components {
+    p {
+        @apply text-base text-color-600 md:text-md
+    }
+}
